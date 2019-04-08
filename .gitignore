@@ -31,5 +31,11 @@
 *.out
 *.app
 
-# directory
+# vs code
+# .vscode/ipch/
 .vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.pdb
