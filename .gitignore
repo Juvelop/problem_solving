@@ -1,3 +1,6 @@
+# include folders
+!build/
+
 # Prerequisites
 *.d
 
@@ -32,10 +35,10 @@
 *.app
 
 # vs code
-# .vscode/ipch/
-.vscode/
+.vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-*.pdb
+# .vscode/ipch/
+# *.pdb
